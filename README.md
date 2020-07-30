@@ -21,5 +21,9 @@ be significant in comparison to results obtained with an unguided approach. More
 the performance of DFS using directly an approximation of the IoU/iIoU measures for gradient descent, which are better
 optimization measure than mean square error and similar.
 
+## **How to run train_DFS.py ?**<br/>
+1) Follow the procedure to make the Foggy Cityscape dataset (https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/).<br/>
+2) Make a folder called cityscape, the path to that folder is your "path_exp".
+
 ## **Poster:** <br/>
 ![Poster](Poster.png) 
