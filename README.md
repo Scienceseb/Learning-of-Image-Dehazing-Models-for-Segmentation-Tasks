@@ -22,6 +22,7 @@ the performance of DFS using directly an approximation of the IoU/iIoU measures 
 optimization measure than mean square error and similar.
 
 ## **How to run train_DFS.py ?**<br/>
+0) Train a segmentation network on the normal Cityscape dataset (not overlapping with Foggy cityscape, you have to check the ID of images): https://www.cityscapes-dataset.com/. 
 1) Follow the procedure to make the Foggy Cityscape dataset (https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/).<br/>
 2) Make a folder called cityscape, the path to that folder is your "path_exp", make 3 sub-folders: train_set, val_set and test_set and 3 sub-sub-folders for each: a,b and c. Put the hazy images in a, the non-hazy images in b and the segmentation masks in c (make sure that you separated the dataset, no overlapping between train, val and test).<br/>
 4) Change the "path_exp" in train_DFS.py to your real experimentation path. <br/>
