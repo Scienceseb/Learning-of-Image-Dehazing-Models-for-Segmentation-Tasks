@@ -1,6 +1,6 @@
 # Learning-of-Image-Dehazing-Models-for-Segmentation-Tasks
 
-PyTorch code for the paper **Learning of Image Dehazing Models for Segmentation Tasks** (https://arxiv.org/pdf/1903.01530.pdf)<br/> 
+PyTorch code for the paper **Learning of Image Dehazing Models for Segmentation Tasks, EUSIPCO 2019** (https://arxiv.org/pdf/1903.01530.pdf)<br/> 
 
 ## **Approach:**<br/>
 The generator network receives an image with haze as an
