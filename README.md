@@ -13,5 +13,13 @@ the generator (i.e., the dehazed image) into the segmentation network. The obtai
 the ground truth segmentation map, using the L2 loss. Basically, the model tries at the same time to remove haze as much as
 possible while preserving, or even improving segmentation performance.
 
+## **What this paper propose ?**<br/>
+This paper demonstrates the usefulness of including segmentation loss in an end-to-end training of deep learning
+models for dehazing. The learning-based dehazing model is generated not just for denoising metrics, but also with an
+optimization criterion aimed at achieving something useful for a specific task, and with performance improvements that can
+be significant in comparison to results obtained with an unguided approach. Moreover we can consider to boost even more
+the performance of DFS using directly an approximation of the IoU/iIoU measures for gradient descent, which are better
+optimization measure than mean square error and similar.
+
 ## **Poster:** <br/>
 ![Poster](Poster.png)
