@@ -14,4 +14,4 @@ the ground truth segmentation map, using the L2 loss. Basically, the model tries
 possible while preserving, or even improving segmentation performance.
 
 ## **Poster:** <br/>
-![Poster](Poster.pdf)
+![Poster](Poster.png)
